@@ -34,6 +34,11 @@ const Footer = () => {
                 </a>
               </li>
               <li>
+                <a href="/historico" className="text-white/80 hover:text-primary transition-smooth">
+                  Histórico
+                </a>
+              </li>
+              <li>
                 <a href="/posts" className="text-white/80 hover:text-primary transition-smooth">
                   Posts
                 </a>
@@ -45,7 +50,7 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4">Contatos</h3>
             <div className="flex gap-4">
-              <Button
+              {/* <Button
                 size="icon"
                 variant="outline"
                 className="bg-white/10 border-white/20 hover:bg-primary hover:border-primary transition-smooth"
@@ -59,7 +64,7 @@ const Footer = () => {
                 >
                   <MessageCircle className="w-5 h-5" />
                 </a>
-              </Button>
+              </Button> */}
               <Button
                 size="icon"
                 variant="outline"
@@ -67,7 +72,7 @@ const Footer = () => {
                 asChild
               >
                 <a
-                  href="https://instagram.com/peladadossicks"
+                  href="https://www.instagram.com/sicks.fc/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
